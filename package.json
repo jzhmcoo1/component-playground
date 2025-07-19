@@ -1,0 +1,17 @@
+{
+  "name": "component-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:docs": "pnpm --filter docs dev",
+    "build:docs": "pnpm --filter docs build",
+    "dev:ui": "pnpm --filter nx-ui dev",
+    "build:ui": "pnpm --filter nx-ui build",
+    "dev": "pnpm --parallel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4"
+}
